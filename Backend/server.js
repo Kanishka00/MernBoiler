@@ -31,3 +31,4 @@ app.listen(port,()=>{
 })
 // Routes, Controllers, Models
 // route contains all the routes, controller contains all the functions which are assosiated with the route
+// This is from new server.js
