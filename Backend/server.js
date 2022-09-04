@@ -26,6 +26,11 @@ connection.once("open",() =>{
     console.log("MongoDb connected!");
 });
 
+// http://localhost:5000/Student
+
+const StudentForm = require('./routes/From.js');
+app.use("/Student",StudentForm);
+
 app.listen(port,()=>{
     console.log("PORT connected on "+port);
 })
